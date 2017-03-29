@@ -12,6 +12,7 @@ To run the notebook, type the following from a command line:
 All data used for the project was downloaded from Yahoo! Finance:
 
 http://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC
+
 http://finance.yahoo.com/quote/%5EVIX/history?p=^VIX
 
 The data used in this project was historical market data from January 29th, 1993 to September 29th, 2016. The start date was chosen based on this date being the earliest date for which volatility (VIX) data was available via Yahoo! Finance. The VIX is considered the market’s ‘fear index’ and measures the volatility of stocks. During times of market turmoil, the VIX increases.
@@ -36,4 +37,6 @@ For the date range under consideration, the raw data file contains 5,962 trading
 * TensorFlow
 
 ## Additional Documents
-Fox-Capstone.ipynb: contains code and exploratory data analysis and commentary. Written in Python (2.7.12) in Jupyter Notebooks
+* Fox-Capstone.ipynb: contains code and exploratory data analysis and commentary. Written in Python (2.7.12) in Jupyter Notebooks
+* Fox-MLND-Capstone.pdf: project report, containing summary of the analyses and key conclusions
+* SP500_historical.csv: raw data, as discussed in the 'Data' section above
